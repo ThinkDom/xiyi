@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,h1,h2,h3,h4,h5,h6,hr,p,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td,a,p,span{margin:0;padding:0;word-wrap:break-word;}
+img{border:0; background:none;font:12px/1.5 arial,Verdana,tahoma,"宋体",sans-serif;}
+img{font-size:0;}
+body,button,input,select,textarea{font:12px/1.5 arial,Verdana,tahoma,"宋体",sans-serif;}
+h1,h2,h3,h4.h5,h6,button,input,select,textarea{font-size:100%;font-weight:lighter;}
+var,em{font-family:normal;font-family:"宋体"}
+pre{font-family:"Courier New", Courier, monospace;}
+hr{border:1px solid #dedede;}
+dl{list-style-type:none;}
+ul,ol{list-style:none;}
+a{text-decoration:none;outline:none;}
+a:hover{text-decoration:none;outline:none;}
+em{font-style:normal;}
+table{border-collapse: collapse; border-spacing: 0;} 
+
+.clear{
+    clear: both;
+    font-size: 0px;
+    height: 0px;
+    line-height: 0px;
+}

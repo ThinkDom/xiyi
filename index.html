@@ -1,0 +1,128 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>登录</title>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+
+<body>
+	
+    <div class="web_index">
+        
+        <div class="header">
+            <div class="width_900">
+                <a href="javascript:void(0);" class="logo_button"><img src="images/logo.png" title="兮易咨询" /></a>
+                <span class="instructions">专注于互联网大数据时代企业核心能力的可持续提升</span>
+                <div class="clear"></div>
+            </div>
+        </div>
+        
+        <div class="middle">
+            
+            <div class="form_middle_box width_900">
+                <div class="form_box">
+                    
+                    <div class="form_title_box">
+                        <span class="form_title_left">欢迎光临</span>
+                        <span class="form_title_right">还没有账号？<a href="javascript:void(0);">立即注册</a></span>
+                        <div class="clear"></div>
+                    </div>
+                    
+                    <div class="form_content_box">
+
+                        <div class="input_box">
+                            <input class="input_txt user_name_input" type="text" name="user_name" value="" placeholder="手机号/邮箱" />
+                        </div>
+
+                        <div class="input_box">
+                            <input class="input_txt password_input" type="password" name="password" value="" placeholder="密码" />
+                            <a class="password_show" href="javascript:void(0);">显示</a>
+                        </div>
+
+                        <div class="input_tips_box">
+                            <span class="input_tips_left_box">如果你已注册且未设置密码，请点击忘记密码</span>
+                            <span class="input_tips_right_box"><a href="javascript:void(0);">忘记密码？</a></span>
+                            <div class="clear"></div>
+                        </div>
+
+                        <div class="input_button_box">
+                            <input class="form_buttom" id="form_buttom" type="submit" value="登 录" />
+                        </div>
+
+                    </div>
+                    
+                </div>
+                
+                <div class="third_party">
+                    <div class="third_party_title_box">
+                        <span>第三方账户登录</span>
+                    </div>
+
+                    <div class="third_party_button_box">
+                        <a class="weibi_button" href="javascript:void(0);">新浪微博登录</a>
+                        <a class="QQ_button" href="javascript:void(0);">QQ账号登录</a>
+                        <a class="weixin_button" href="javascript:void(0);">微信账号登录</a>
+                        <a class="tiyan_button" href="javascript:void(0);">体 验</a>
+                    </div>
+                </div>
+
+                <div class="clear"></div>
+            </div>
+            
+        </div>
+        
+        <div class="footer">
+            
+        </div>
+
+        <div class="bounced_box" id="bounced_box" style="display: none">
+            <div class="bounced_title_box">
+                <span>选择您要登陆的公司</span>
+            </div>
+
+            <div class="bounced_form_box">
+
+                <div class="bounced_form_input_box">
+                    <a class="design_company_button" href="javascript:void(0);">
+                        <img class="bounced_button_img" src="images/design.png" title="国际设计公司" />
+                        <h3 class="bounced_button_h3">国际设计公司</h3>
+                        <span class="bounced_button_span">勾选</span>
+                        <div class="clear"></div>
+                    </a>
+                </div>
+
+                <div class="bounced_form_input_box">
+                    <a class="design_company_button ahover" href="javascript:void(0);">
+                        <img class="bounced_button_img bounced_button_img_financial" src="images/financial.png" title="国标金融公司" />
+                        <h3 class="bounced_button_h3 bounced_button_h3_financial">国标金融公司</h3>
+                        <span class="bounced_button_span">勾选</span>
+                        <div class="clear"></div>
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="bounced_form_button_box">
+                <input class="bounced_form_buttom" type="submit" value="登 录" />
+            </div>
+
+        </div>
+
+    </div>
+    
+</body>
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript">
+    $(function(){
+
+        $('#form_buttom').click(function(){
+
+            popupBox('show',$('#bounced_box'));
+
+        });
+
+    });
+</script>
+</html>
